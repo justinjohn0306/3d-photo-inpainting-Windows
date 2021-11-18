@@ -62,8 +62,11 @@ Change your Anaconda directory to that folder with `cd YOUR_FILE_DIRECTORY/3d-ph
     pip install pyqt5
     ```
     If you cannot install Cython, cynetworkx successfully, please install [here](https://git-scm.com/download/win);
+    
     And then run the following commands:
+    
     pip install Cython==3.0a5
+    
     pip install git+https://github.com/pattern-inc/cynetworkx.git
     
     
