@@ -61,7 +61,11 @@ Change your Anaconda directory to that folder with `cd YOUR_FILE_DIRECTORY/3d-ph
     pip install cython
     pip install pyqt5
     ```
-    If you cannot install Cython, cynetworkx successfully, please install VS C++ Toolkit. Tutorial [here](https://www.notion.so/How-To-Install-Microsoft-C-Build-Tools-f79ca6796a524674878b80e998c88b02).
+    If you cannot install Cython, cynetworkx successfully, please install [here](https://git-scm.com/download/win);
+    And then run the following commands:
+    pip install Cython==3.0a5
+    pip install git+https://github.com/pattern-inc/cynetworkx.git
+    
     
 - Next, please download the following models & weights and put them in the right file directory (from my backup IceDrive):
     - [color-model.pth](https://icedrive.net/0/b7ri1hJxKH)
