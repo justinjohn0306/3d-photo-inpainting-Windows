@@ -60,6 +60,7 @@ Change your Anaconda directory to that folder with `cd YOUR_FILE_DIRECTORY/3d-ph
     pip install pyyaml
     pip install cython
     pip install pyqt5
+    pip install matplotlib
     ```
     If you cannot install Cython, cynetworkx successfully, please install Git for Windows [link](https://git-scm.com/download/win)
     
